@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+server/venv/
+venv/
+
+# Environment and Secrets
+.env
+client/.env
+server/.env
+*.env
+
+# SQLite Databases
+*.db
+*.sqlite3
+server/task_tracker.db
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Build outputs
+client/dist/
+client/build/
+
+# OS / Editor files
+.DS_Store
+.idea/
+.vscode/
